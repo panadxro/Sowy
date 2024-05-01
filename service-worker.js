@@ -3,11 +3,11 @@
 const CACHE_NAME = 'marketplace-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/styles.css',
-  '/script.js',
-  '/logo-white.png',
-  '/logo.png'
+  'index.html',
+  'styles.css',
+  'script.js',
+  'logo-white.png',
+  'logo.png'
 ];
 
 self.addEventListener('install', event => {
