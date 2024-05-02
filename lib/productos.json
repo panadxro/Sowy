@@ -1,0 +1,82 @@
+[
+  { 
+    "id": 1,
+    "titulo": "Botella de metal",
+    "descripcion": "Con una capacidad de 500 ml, esta botella de acero inoxidable de la marca Laken resulta muy práctica para llevar siempre contigo. Es la alternativa idónea a las botellas de plástico convencionales, dado que el acero inoxidable 18/8 es un material que no absorbe olores ni sabores.",
+    "precio": 120,
+    "imagen": "assets/product/botella_de_metal.jpg",
+    "categoria": "Esenciales"
+  },
+  {
+    "id": 2,
+    "titulo": "Cepillo de bambú",
+    "descripcion": "Nuestro cepillo de dientes de bambú está fabricado con bambú 100% de origen sostenible y cerdas de aceite de ricino.",
+    "precio": 50,
+    "imagen": "assets/product/cepillo_de_bambu.jpg",
+    "categoria": "Higiene" 
+  },
+  {
+    "id": 3,
+    "titulo": "Pajita de acero inoxidable",
+    "descripcion": "Salva a las tortugas y a los vertederos guardando estas pajitas de acero inoxidable en casa para cócteles o batidos, llevándolas en el bolso o en el coche. ¡Las opciones son infinitas!",
+    "precio": 20,
+    "imagen": "assets/product/pajita_de_acero.jpg",
+    "categoria": "Esenciales"
+  },
+  {
+    "id": 4,
+    "titulo": "Bolsa de malla",
+    "descripcion": "Imprescindibles para hacer la compra sin residuos. Ligeras y con red de malla, estas bolsas de algodón orgánico sustituyen a las bolsas de plástico y se pueden llenar en el mercado. Lávelas para limpiarlas y reutilizarlas.",
+    "precio": 200,
+    "imagen": "assets/product/bolsa_de_malla.jpg",
+    "categoria": "Cocina"
+  },
+  {
+    "id": 5,
+    "titulo": "Shampoo sólido",
+    "descripcion": "Nuestras barras de Shampoo Zero Waste están elaboradas con ingredientes veganos de calidad profesional que limpian, nutren y aportan brillo, cuerpo y vitalidad al cabello.",
+    "precio": 70,
+    "imagen": "assets/product/shampoo_solido.jpg",
+    "categoria": "Higiene"
+  },
+  {
+    "id": 6,
+    "titulo": "Maquina de afeitar de acero",
+    "descripcion": "Una maquina de afeitar Zero Waste a simple vista puede ser intimidante, pero rápidamente te sentirás cómodo al experimentar un afeitado apurado y suave, una hoja fácilmente reemplazable y una maquinita que durará décadas.",
+    "precio": 120,
+    "imagen": "assets/product/maquina_de_afeitar.jpg",
+    "categoria": "Higiene" 
+  },
+  {
+    "id": 7,
+    "titulo": "Esponja vegetal",
+    "descripcion": "Las esponjas de lufa provienen de la planta seca de lufa, ¡un primo del pepino! Aunque no se puede fregar con un pepino, las esponjas de lufa son un estupendo sustituto de plástico para las esponjas de baño, vajilla y limpieza.",
+    "precio": 120,
+    "imagen": "assets/product/esponja_vegetal.jpg",
+    "categoria": "Cocina" 
+  },
+  {
+    "id": 8,
+    "titulo": "Cepillo lavaplatos",
+    "descripcion": "Nuestro cepillo multiusos de mango corto es lo suficientemente suave para cualquier superficie y lo suficientemente resistente para cualquier suciedad. El mango redondeado de este cepillo vegetal facilita el agarre y aumenta la potencia de fregado.",
+    "precio": 35,
+    "imagen": "assets/product/cepillo_lavaplatos.jpg",
+    "categoria": "Cocina" 
+  },
+  {
+    "id": 9,
+    "titulo": "Kit Jarra Mason",
+    "descripcion": "¡Tu nuevo compañero de bebida, este Kit de Jarra incluye una tapa de Bambú, y Pajita de Acero Inoxidable! Perfecto para el café con leche de la mañana, el té helado de la tarde o tu cóctel favorito, ¡es sostenible y elegante!",
+    "precio": 70,
+    "imagen": "assets/product/kit_jarra.jpg",
+    "categoria": "Cocina" 
+  },
+  {
+    "id": 10,
+    "titulo": "Cepillo para baño",
+    "descripcion": "Este escobillero sin plástico puede parecer un friegaplatos, ¡pero no hay que confundirlos! Las fibras vegetales lo convierten en un cepillo resistente, mientras que el soporte de madera de haya evita que gotee sobre el suelo.",
+    "precio": 120,
+    "imagen": "assets/product/cepillo_para_bano.jpg",
+    "categoria": "Higiene" 
+  }
+]
