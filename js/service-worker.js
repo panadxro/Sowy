@@ -1,11 +1,12 @@
 const CACHE = 'marketplace-app-cache';
 const urlsAlCache = [
-  'index.html',
-  'offline.html',
-  'css/styles.css',
-  'js/script.js',
-  'img/logo-192x192.png',
-  'img/logo-512x512.png'
+  '/',
+  '/index.html',
+  '/offline.html',
+  '/css/styles.css',
+  '/js/script.js',
+  '/img/logo-192x192.png',
+  '/img/logo-512x512.png'
 ];
 
 self.addEventListener('install', event => {
@@ -18,18 +19,21 @@ self.addEventListener('install', event => {
 
 self.addEventListener('fetch', event => {
   event.respondWith(
-    caches.open(CACHE).then(async cache => {
-      const response = await cache.match(event.request);
-      if (response) {
-        return response;
-      }
-      try {
-        const networkResponse = await fetch(event.request);
-        cache.put(event.request, networkResponse.clone());
-        return networkResponse;
-      } catch {
-        return await caches.match('offline.html');
-      }
+    caches.open(CACHE).then(cache => {
+      return cache.match(event.request)
+      .then(response => {
+        if (response) {
+          return response;
+        }
+        return fetch(event.request)
+          .then(networkResponse => {
+            cache.put(event.request, networkResponse.clone());
+            return networkResponse;
+          })
+          .catch(() => {
+            return caches.match('/offline.html');
+          })
+        })
     })
   );
 });
