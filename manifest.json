@@ -3,7 +3,6 @@
   "short_name": "Marketplace Vegano",
   "description": "Compra productos veganos, zero waste y orgánicos de calidad",
   "start_url": "/Sowy/",
-  "scope" : "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4caf50",
