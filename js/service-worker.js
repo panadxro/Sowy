@@ -1,8 +1,8 @@
 const CACHE = 'marketplace-app-cache';
 const urlsAlCache = [
   '/',
-  'index.html',
-  'offline.html',
+  '/index.html',
+  '/offline.html',
   '/css/styles.css',
   '/js/script.js',
   '/img/logo-192x192.png',
@@ -31,7 +31,7 @@ self.addEventListener('fetch', event => {
             return networkResponse;
           })
           .catch(() => {
-            return caches.match('offline.html');
+            return caches.match('/offline.html');
           })
         })
     })
