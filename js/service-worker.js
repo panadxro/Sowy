@@ -1,6 +1,5 @@
 const CACHE = 'marketplace-app-cache';
 const urlsAlCache = [
-  '/',
   'index.html',
   'offline.html',
   'css/styles.css',
